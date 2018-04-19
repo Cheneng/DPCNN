@@ -15,14 +15,14 @@ run by
 python main.py --lr=0.001 --epoch=20 --batch_size=64 --gpu=0 --seed=0 --label_num=2			
 ```
 
-## Some Experiments  
-> 	I personally run the model in one dataset about Ad identify.  
-	And make a comparition to the vanilla TextCNN, LSTM and our DPCNN. 
+## Evaluation 
+> 	I run the model in a dataset about AD identify.  
+	And make a comparition between the TextCNN, LSTM and our DPCNN. 
 	 
-Here are the step loss in **TextCNN** and **LSTM**.  
+Loss of **TextCNN** and **LSTM**.  
 <img src="./pictures/textcnn.png" width="350" height="250">  <img src="./pictures/lstm.png" width="350" height="250"> 
 
 
-This is the loss of the **DPCNN**.  
+Loss of **DPCNN**.  
 <img src="./pictures/dpcnn.png" width="350" height="250">
 
