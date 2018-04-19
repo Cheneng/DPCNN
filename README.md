@@ -16,13 +16,13 @@ python main.py --lr=0.001 --epoch=20 --batch_size=64 --gpu=0 --seed=0 --label_nu
 ```
 Result:  
 	I personally run the model in one dataset about Ad identify.  
-	And Compare to the vanilla TextCNN, LSTM and our DPCNN. 
+	And make a comparition to the vanilla TextCNN, LSTM and our DPCNN. 
 	 
 #### TextCNN
-!['TextCNN'](./pictures/textcnn.png)
-	
+<img src="./pictures/textcnn.png" width="300" height="200">
+
 #### LSTM  
-!['LSTM'](./pictures/lstm.png)
+<img src="./pictures/lstm.png" width="300" height="200">
 	
 ### DPCNN
-!['DPCNN](./pictures/dpcnn.png)
+<img src="./pictures/dpcnn.png" width="300" height="200">
