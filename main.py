@@ -65,7 +65,7 @@ for epoch in range(config.epoch):
             labels = label.cuda()
 
         input_data = embeds(autograd.Variable(data))
-        out = model(data)
+        out = model(input_data)
         loss = criterion(out, autograd.Variable(label.float()))
 
         loss_sum += loss.data[0]
